@@ -1,0 +1,15 @@
+{
+  "name": "tecstore",
+  "version": "1.0.0",
+  "description": "E-commerce de produtos de informática",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evandro Lima, Angela Geniselli, Vando Rocha, Peter, João Linhares",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
