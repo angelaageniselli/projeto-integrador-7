@@ -9,7 +9,7 @@
 
 #topo{
     width: 100%;
-    height: 80px;
+    height: 90px;
     background-color: cornflowerblue;
     display: flex;
     justify-content: space-between;
@@ -17,12 +17,8 @@
 }
 
 .logo{
-    height: 60px;
-    width: 90px;
-    background-color: cyan;
-    margin-left: 26px;
+    margin-left: 34px;
 }
-
 
 .search{
     height: 40px;

@@ -9,6 +9,7 @@
   "author": "Evandro Lima, Angela Geniselli, Vando Rocha, Peter, João Linhares",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.2",
     "nodemon": "^2.0.15"
   }
