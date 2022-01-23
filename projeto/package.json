@@ -1,16 +1,17 @@
 {
-  "name": "tecstore",
-  "version": "1.0.0",
-  "description": "E-commerce de produtos de informática",
-  "main": "index.js",
+  "name": "projeto",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www"
   },
-  "author": "Evandro Lima, Angela Geniselli, Vando Rocha, Peter, João Linhares",
-  "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
     "nodemon": "^2.0.15"
   }
 }
