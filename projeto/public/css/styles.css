@@ -10,10 +10,12 @@
 #topo{
     width: 100%;
     height: 90px;
-    background-color: cornflowerblue;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: rgb(68, 126, 253) 2px solid;
+    margin-bottom: 10px;
 }
 
 .logo{
@@ -21,35 +23,38 @@
 }
 
 .search{
+    display: flex;
+    justify-content: space-between;
     height: 40px;
-    width: 30%;
-    background-color: white;
-    border-radius: 30px;
-    border: solid 1px blue;
-    padding: 8px;
+    width: 40%;
+    padding: 5px;
+    border-radius: 8px;
+    border: solid 2px rgb(94, 94, 241);
     font-size: 18px;
 }
 
 .nav-right{
     display: flex;
-    margin-right: 28px;
+    margin-right: 60px;
 }
 
 .nav-right li, a{
     text-decoration: none;
     list-style: none;
-    color: white;
-    text-align: center;
-    padding-top: 10px ;
+    color: rgb(27, 7, 7);
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .nav-right li{
-    height: 40px;
-    width: 100px;
-    background-color: rgb(50, 217, 223);
-    margin-left: 12px;
-    border: tomato solid 1px;
+    margin-left: 25px;
+}
 
+#campo-busca{
+    border: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
 }
 
 /*footer*/
