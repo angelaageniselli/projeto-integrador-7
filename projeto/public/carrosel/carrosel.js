@@ -44,7 +44,7 @@ function slide(){
         atual = quant.length-1
     }
     document.querySelector('.imgAtual').classList.remove('.imgAtual')
-    imagem.style.marginLeft = -1024*atual+'px'
+    imagem.style.marginLeft = -1200*atual+'px'
     document.getElementById(atual).classList.add('imgAtual')
 }
 setInterval(() =>{
