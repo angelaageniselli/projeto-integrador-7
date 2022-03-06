@@ -1,21 +1,35 @@
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/slide1.png" class="d-block w-100" alt="...">
+<div id="container-carrosel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<link rel="stylesheet" href="/carrosel/styles-carrosel.css">
+<div class="slide">
+  <div class="slides">
+      <div id="voltar" class="btn">
+          <i class="fas fa-chevron-left"></i>
       </div>
-      <div class="carousel-item">
-        <img src="img/slide2.png" class="d-block w-100" alt="...">
+      <div id="next" class="btn">
+          <i class="fas fa-chevron-right"></i>
       </div>
-      <div class="carousel-item">
-        <img src="img/slide3.png" class="d-block w-100" alt="...">
+      <div id="atual" class="image">
+          <img src="/carrosel/img/slide1.png" alt="">
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+      <div id="atual" class="image">
+          <img src="/carrosel/img/slide2.png" alt="">
+      </div>
+      <div id="atual" class="image">
+          <img src="/carrosel/img/slide3.png" alt="">
+      </div>
+      <div id="atual" class="image">
+          <img src="/carrosel/img/slide4.png" alt="">
+      </div>
   </div>
+  <div class="balls">
+      <div id="0" class="imgAtual"></div>
+      <div id="1"></div>
+      <div id="2"></div>
+      <div id="3"></div>
+  </div>
+</div>
+<script src="/carrosel/carrosel.js"></script>
+</div>
+
