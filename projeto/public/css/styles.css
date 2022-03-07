@@ -16,6 +16,8 @@
     align-items: center;
     border-bottom: rgb(68, 126, 253) 2px solid;
     margin-bottom: 10px;
+    position: fixed;
+    z-index: 20;
 }
 
 .logo{
@@ -44,7 +46,15 @@
     color: rgb(27, 7, 7);
     font-size: 20px;
     font-weight: 600;
+    border: none;
 }
+
+.nav-right li a:hover{
+    border-bottom: solid 3px cornflowerblue;
+}
+
+
+
 
 .nav-right li{
     margin-left: 25px;
