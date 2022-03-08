@@ -67,12 +67,6 @@
     outline: 0;
 }
 
-/*footer*/
-footer{
-    width: 100%;
-    height: 140px;
-    background-color: cornflowerblue;
-}
 
 /*mains*/
 main{
@@ -80,3 +74,34 @@ main{
     height: 100vh;
     text-align: center;
 }
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 140px;
+    border-top: solid 2px rgb(68, 126, 253);
+    align-items: center;
+}
+
+.payments-card{
+    align-items: center;
+    width: 26vw;
+}
+
+
+#footer-cards{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#footer-cards .card{
+    width: 24%;
+    height: 140px;
+    border: solid 1px rgb(68, 126, 253);
+}
+
