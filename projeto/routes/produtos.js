@@ -4,7 +4,7 @@ const router = express.Router();
 
 
 router.get('/', function cadastroProdutos(req, res){
-    res.render('cadastro_produtos');
+    res.render('produtos');
 })
 
 module.exports = router;

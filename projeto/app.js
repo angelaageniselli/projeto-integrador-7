@@ -20,7 +20,7 @@ app.use('/', require('./routes/index'));
 
 //ROTAS CRIADAS
 app.use('/login', require('./routes/login'));
-app.use('/cadastro_produtos', require('./routes/cadastro_produtos'));
+app.use('/produtos', require('./routes/produtos'));
 app.use('/carrinho', require('./routes/carrinho'));
 
 // catch 404 and forward to error handler
