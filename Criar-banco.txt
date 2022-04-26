@@ -1,0 +1,10 @@
+1 - Rodar: npm install
+
+2 - Rodar o comando: npx sequelize db:create
+Esse comando vai criar o banco automaticamente.
+
+2 - Rodar o comando: npx sequelize migration:create --name=usuarios
+Esse comando vai criar a tabela de usuarios
+
+4 - Rodar o comando: npx sequelize db:migrate
+cria os campos: id, name, email na tabela
