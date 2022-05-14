@@ -574,6 +574,14 @@
     "safe-buffer" "5.2.1"
     "uid-safe" "~2.1.5"
 
+"express-validator@^6.14.0":
+  "integrity" "sha512-ZWHJfnRgePp3FKRSKMtnZVnD1s8ZchWD+jSl7UMseGIqhweCo1Z9916/xXBbJAa6PrA3pUZfkOvIsHZG4ZtIMw=="
+  "resolved" "https://registry.npmjs.org/express-validator/-/express-validator-6.14.0.tgz"
+  "version" "6.14.0"
+  dependencies:
+    "lodash" "^4.17.21"
+    "validator" "^13.7.0"
+
 "express@~4.16.1":
   "integrity" "sha512-j12Uuyb4FMrd/qQAm6uCHAkPtO8FDTRJZBDd5D2KOL2eLaz1yUNdUB/NOIyq0iU4q4cFarsUCrnFDPBcnksuOg=="
   "resolved" "https://registry.npmjs.org/express/-/express-4.16.4.tgz"

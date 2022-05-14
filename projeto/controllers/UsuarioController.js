@@ -13,5 +13,8 @@ module.exports = {
             console.log("-------------------------------");
         }
         res.redirect("/"); // Redirecionando para a Página de Produtos
+    }, 
+    login: (req, res, next)=>{
+        res.redirect('/');
     }
 }
